@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Citas para Enfrentamientos Pokemon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="pokemon-background"></div>
+
+    <div class="main-container">
+        <h1>Partidas</h1>
+        <button id="btn-versus" class="poke-button">Versus</button>
+
+        <div id="menu-encuentro" class="hidden">
+            <button id="btn-privado" class="poke-button">Encuentro Privado</button>
+        </div>
+
+        <div id="menu-privado" class="hidden">
+            <p class="description">Aquí puedes jugar con gente que conozcas usando una contraseña compartida</p>
+            <div class="password-wrapper">
+                <input type="password" id="password" placeholder="Crear contraseña">
+                <span id="togglePassword">👁️</span>
+            </div>
+        </div>
+
+        <div id="mazos-section" class="mazos-container hidden">
+            <h2>Mazos</h2>
+            <label for="mazo-select">Selecciona tu mazo:</label><br>
+            <select id="mazo-select" class="mazo-dropdown">
+                <option value="fuego">🔥 Mazo de Fuego</option>
+                <option value="agua">💧 Mazo de Agua</option>
+                <option value="planta">🌿 Mazo de Planta</option>
+            </select><br><br>
+            <button id="confirmar-mazo" class="poke-button">Confirmar Mazo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
