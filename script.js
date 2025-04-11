@@ -14,7 +14,7 @@ document.getElementById('togglePassword').addEventListener('click', () => {
     const input = document.getElementById('password');
     const isPassword = input.type === 'password';
     input.type = isPassword ? 'text' : 'password';
-    document.getElementById('togglePassword').textContent = isPassword ? '卐' : '👁️';
+    document.getElementById('togglePassword').textContent = isPassword ? '👁‍🗨' : '👁️';
 });
 
 // Confirmar elección de mazo
